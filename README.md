@@ -24,6 +24,8 @@ The final dashboard allows users to:
 
 4) Identify sales trends by product category
 
+-Dashboard Interaction  <a href="https://github.com/Emmanuel-Awe/My-first-Excel-Project/blob/main/Screenshot%20(174).png">View Dashboard</a>
+
 ## 📚 What I Learned
 Through this project, I gained hands-on experience with:
 
