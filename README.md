@@ -8,7 +8,7 @@ Remove duplicates: This is applied to clean the dataset before analysis, ensurin
 
 Logical Formulas (IFS & AND): Used to group customers into meaningful age categories for better segmentation.
 
-#💡 Formula Improvement
+# 💡 Formula Improvement
 One key learning milestone was improving a flawed age categorization formula. Initially, the logic was written as: =IFS(L2 >54, "Old (Grater than 54)", L2 >=31 AND L2 < 55 , "Middle age(31-54)" , L2 <31, "Adolescent()Less than 31 "). This version caused issues due to incorrect use of the AND operator inside IFS. After troubleshooting and learning about correct syntax, it was improved to: =IFS(L2 > 54, "Old (Greater than 54)", AND(L2 >= 31, L2 <= 54), "Middle age (31–54)", L2 < 31, "Adolescent (Less than 31)").
 This change significantly improved formula accuracy and readability, enhancing the quality of the dashboard.
 
