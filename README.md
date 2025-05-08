@@ -1,5 +1,6 @@
 # 📊 Bike Sales Dashboard Project
 This project involved building an interactive Bike Sales Dashboard in Excel to analyze customer purchasing behavior based on gender, age group, and income. The goal was to transform raw sales data into clear, visual insights using pivot tables, slicers, and formulas.
+- <a href="https://github.com/Emmanuel-Awe/My-first-Excel-Project/blob/main/Excel%20Project%20Dataset.xlsx">Dataset</a>
 
 # 🔧 Key Features & Tools Learned
 Insert Slicer: Implemented dynamic filtering options, allowing users to easily explore data by gender, product category, and region.
